@@ -1,0 +1,16 @@
+   - Text - the content of tweets.   
+   - created- The time when the tweet was created.
+   - ScreenName- Screen name of the Tweeter user who posted the tweet.   
+   - replyToUID- Nullable If the represented Tweet is a reply, this field will contain the integer representation of the original Tweet’s author ID. This will not necessarily always be the user directly mentioned in the Tweet.
+   - replyToSID- Nullable If the represented Tweet is a reply, this field will contain the integer representation of the original Tweet’s ID. 
+   - id-The integer representation of the unique identifier for this Tweet.
+   - truncated -Indicates whether the value of the text parameter was truncated. For example, as a result of a retweet exceeding the 140 character Tweet length. Truncated text will end in ellipsis, like this ...
+   - retweeted- whether the tweet has retweeted or not.
+   - Longitude-The longitude  of the Tweet’s location
+   - Latitude-The latitude of the Tweet’s location
+   - Favorited-Nullable Perspectival Indicates whether this Tweet has been liked by the authenticating user.
+   - replytoSN -Screen name of the user whom the tweet was replied to. 
+   - FavoriteCount - the number of Tweet users who like the tweet.
+   - statusSource- The device from which the tweet was sent.
+   - retweetCount- the number of retweet of the tweet. 
+   - isRetweet - whether the current tweet is a retweet or a new tweet.
