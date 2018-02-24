@@ -106,4 +106,4 @@ with open('Twittersearch.txt','wt',encoding='utf-8') as f:
        
 with open('Twittertext.txt','wt',encoding='utf-8') as f:
     for i in range(len(Text)):
-        f.write(Text[i]+'\n\n\n')
+        f.write(str(Text[i])+'\n\n\n')
