@@ -7,6 +7,6 @@ You could decide your own search query, but you should fill your own api auth to
 
 This total example was based on Python.
 
-Realted documentation for explanations was shown in doc section.
+Realted documentation for explanations was shown in documentation.docx file.
 
 Welcome to give feedbacks and best wishes.
