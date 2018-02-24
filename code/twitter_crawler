@@ -2,7 +2,7 @@
 
 ''''' 
 Created on 2018-2-23 
-@author: Jackshan 
+@author: Jackustc
 '''  
 import tweepy 
 import csv
@@ -18,12 +18,12 @@ auth.set_access_token(access_token,access_token_secret) #set access_token and ac
 
 api = tweepy.API(auth)
 
-# keywords search 
+# keywords search you can change your search query by using the following sections. This example used 'happy' as the search query
 
 #print('please input your search keywords:')
 #query = input()
-
 query = 'happy'
+
 language = 'en'
 results = api.search(q=query,language=language)
 Screen_name=['Screen_name']
